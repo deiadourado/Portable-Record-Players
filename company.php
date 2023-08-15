@@ -8,15 +8,10 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<header>
+    <?php
+        include("includes/global-nav.php");
+    ?>
     </header>
     <main>
         <section class="about-company">

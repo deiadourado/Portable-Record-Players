@@ -11,6 +11,10 @@
 </head>
 <body>
     <header>
+    <?php
+        include("includes/global-nav.php");
+    ?>
+
         <h1>Rediscover the Timeless Beat</h1>
         <p>Introducing the Golden Record Players, your gateway to a world of classic melodies and timeless rhythms. Immerse yourself in the rich, warm tones of your favorite vinyl records, reliving the magic of yesteryears in a sleek and modern package.</p>
     </header>
