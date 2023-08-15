@@ -65,3 +65,53 @@ em {
         padding: 15px;
     }
 }
+
+/* styles.css */
+.product-ad {
+    text-align: center;
+    margin: 20px;
+}
+
+.product-ad h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-ad img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-ad p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-ad ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.product-ad .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff9900;
+    margin-bottom: 15px;
+}
+
+.product-ad .buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product-ad .buy-now-button:hover {
+    background-color: #ffcc66;
+}
